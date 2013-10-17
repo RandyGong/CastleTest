@@ -14,6 +14,7 @@ namespace CastleIOCTest2
             if (method.Name == "FunA")
                 return interceptors;
             return new IInterceptor[0];
+            // ...
         }
     }
 }
